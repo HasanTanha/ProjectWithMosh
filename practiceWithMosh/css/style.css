@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 2.4rem;
+  /* font-size: 2.4rem; */
   line-height: 1.5;
   color: var(--body-color);
 }
@@ -272,7 +272,7 @@ a {
   border-radius: var(--border-radius);
   display: flex;
   margin-top: 5px;
-  box-shadow: 2px 4px 14px 0px white;
+  box-shadow: 2px 4px 14px 0px #f4eeee;
 }
 
 .input-group .input {
@@ -289,26 +289,4 @@ a {
   .input {
     font-size: 1.5rem;
   }
-}
-
-/* Cards */
-
-.card {
-  border-radius: 8px;
-  box-shadow: 0 0 20px 10px #f5e7e7;
-  overflow: hidden;
-}
-
-.card__header,
-.card__body {
-  padding: 2rem 3rem;
-}
-
-.card--primary .card__header {
-  background-color: #2584ff;
-  color: #fff;
-}
-.card--secondary .card__header {
-  background-color: #00d9ff;
-  color: #fff;
 }
